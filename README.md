@@ -33,3 +33,5 @@
 
 
 *[Last Automatic Update: 2022-01-02 20:10:08](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+
+@OSSDAO-ORG•AIRDROP-0xYourEthAddress
