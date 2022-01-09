@@ -32,6 +32,4 @@
 
 
 
-*[Last Automatic Update: 2022-01-02 20:10:08](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
-
-@OSSDAO-ORG•AIRDROP-0x60DC9061771dbdB615D4e31381B82B7ee83CC829
+*[Last Automatic Update: 2022-01-09 20:10:21](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
