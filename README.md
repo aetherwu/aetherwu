@@ -20,7 +20,7 @@
 |Repo|Description|Star|
 |:--|:--|:--|
 |[youdaoalfred](https://github.com/aetherwu/youdaoalfred)|None|`10`|
-|[AudioQR](https://github.com/aetherwu/AudioQR)|None|`4`|
+|[AudioQR](https://github.com/aetherwu/AudioQR)|None|`3`|
 |[EnchantmentProject](https://github.com/aetherwu/EnchantmentProject)|It is a project that uses Kinect + Synapse + Quartz composer. |`1`|
 |[KinectPlayground](https://github.com/aetherwu/KinectPlayground)|None|`1`|
 |[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`1`|
@@ -32,4 +32,4 @@
 
 
 
-*[Last Automatic Update: 2022-01-23 20:10:08](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+*[Last Automatic Update: 2022-01-30 20:09:06](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
