@@ -5,6 +5,7 @@
 ## Recent Repos
 |Repo|Description|Last Update|
 |:--|:--|:--|
+|[nft-generator](https://github.com/aetherwu/nft-generator)|None|`2022-06-24 00:25:05`|
 |[CameraPI](https://github.com/aetherwu/CameraPI)|None|`2016-06-10 12:52:27`|
 |[RaspiCameraPython](https://github.com/aetherwu/RaspiCameraPython)|None|`2015-08-27 15:40:51`|
 |[AudioQR](https://github.com/aetherwu/AudioQR)|None|`2015-04-26 11:01:52`|
@@ -14,7 +15,6 @@
 |[SparkTEST](https://github.com/aetherwu/SparkTEST)|None|`2015-01-25 10:19:26`|
 |[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`2014-10-11 00:42:24`|
 |[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`2014-06-27 04:55:39`|
-|[KinectRedBar](https://github.com/aetherwu/KinectRedBar)|None|`2014-06-26 02:43:47`|
 
 ## Top Repos
 |Repo|Description|Star|
@@ -32,4 +32,4 @@
 
 
 
-*[Last Automatic Update: 2022-06-19 20:01:38](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+*[Last Automatic Update: 2022-06-26 20:01:30](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
