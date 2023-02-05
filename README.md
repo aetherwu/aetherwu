@@ -20,16 +20,16 @@
 |Repo|Description|Star|
 |:--|:--|:--|
 |[youdaoalfred](https://github.com/aetherwu/youdaoalfred)|None|`10`|
-|[AudioQR](https://github.com/aetherwu/AudioQR)|None|`3`|
-|[EnchantmentProject](https://github.com/aetherwu/EnchantmentProject)|It is a project that uses Kinect + Synapse + Quartz composer. |`1`|
-|[KinectPlayground](https://github.com/aetherwu/KinectPlayground)|None|`1`|
-|[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`1`|
-|[CameraPI](https://github.com/aetherwu/CameraPI)|None|`0`|
-|[KinectRedBar](https://github.com/aetherwu/KinectRedBar)|None|`0`|
-|[LifelogCamera](https://github.com/aetherwu/LifelogCamera)|None|`0`|
-|[LifeLogCamera-Swift](https://github.com/aetherwu/LifeLogCamera-Swift)|Just another proof of concept.|`0`|
-|[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`0`|
+|[AudioQR](https://github.com/aetherwu/AudioQR)|None|`4`|
+|[EnchantmentProject](https://github.com/aetherwu/EnchantmentProject)|It is a project that uses Kinect + Synapse + Quartz composer. |`2`|
+|[KinectPlayground](https://github.com/aetherwu/KinectPlayground)|None|`2`|
+|[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`2`|
+|[CameraPI](https://github.com/aetherwu/CameraPI)|None|`1`|
+|[KinectRedBar](https://github.com/aetherwu/KinectRedBar)|None|`1`|
+|[LifelogCamera](https://github.com/aetherwu/LifelogCamera)|None|`1`|
+|[LifeLogCamera-Swift](https://github.com/aetherwu/LifeLogCamera-Swift)|Just another proof of concept.|`1`|
+|[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`1`|
 
 
 
-*[Last Automatic Update: 2023-01-29 20:01:44](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+*[Last Automatic Update: 2023-02-05 20:01:48](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
