@@ -5,6 +5,7 @@
 ## Recent Repos
 |Repo|Description|Last Update|
 |:--|:--|:--|
+|[redis-vector-bot](https://github.com/aetherwu/redis-vector-bot)|A chat bot using Redis as vector store and query db.|`2023-04-17 14:32:13`|
 |[nft-generator](https://github.com/aetherwu/nft-generator)|None|`2022-06-24 00:25:05`|
 |[CameraPI](https://github.com/aetherwu/CameraPI)|None|`2016-06-10 12:52:27`|
 |[RaspiCameraPython](https://github.com/aetherwu/RaspiCameraPython)|None|`2015-08-27 15:40:51`|
@@ -14,13 +15,13 @@
 |[project-avalon](https://github.com/aetherwu/project-avalon)|A blog that I've written in 2005.|`2015-03-13 09:59:12`|
 |[SparkTEST](https://github.com/aetherwu/SparkTEST)|None|`2015-01-25 10:19:26`|
 |[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`2014-10-11 00:42:24`|
-|[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`2014-06-27 04:55:39`|
 
 ## Top Repos
 |Repo|Description|Star|
 |:--|:--|:--|
 |[youdaoalfred](https://github.com/aetherwu/youdaoalfred)|None|`10`|
 |[AudioQR](https://github.com/aetherwu/AudioQR)|None|`4`|
+|[redis-vector-bot](https://github.com/aetherwu/redis-vector-bot)|A chat bot using Redis as vector store and query db.|`4`|
 |[EnchantmentProject](https://github.com/aetherwu/EnchantmentProject)|It is a project that uses Kinect + Synapse + Quartz composer. |`2`|
 |[KinectPlayground](https://github.com/aetherwu/KinectPlayground)|None|`2`|
 |[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`2`|
@@ -28,8 +29,7 @@
 |[KinectRedBar](https://github.com/aetherwu/KinectRedBar)|None|`1`|
 |[LifelogCamera](https://github.com/aetherwu/LifelogCamera)|None|`1`|
 |[LifeLogCamera-Swift](https://github.com/aetherwu/LifeLogCamera-Swift)|Just another proof of concept.|`1`|
-|[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`1`|
 
 
 
-*[Last Automatic Update: 2023-04-16 20:01:32](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+*[Last Automatic Update: 2023-04-23 20:01:41](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
