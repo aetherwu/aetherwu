@@ -5,6 +5,7 @@
 ## Recent Repos
 |Repo|Description|Last Update|
 |:--|:--|:--|
+|[BlockTwitterBlue](https://github.com/aetherwu/BlockTwitterBlue)|Block all tweets with blue tick on Twitter home page (timeline) and search results page (latest tab) on desktop browsers (Chrome, Firefox, Edge, Safari, Opera, Brave, etc)|`2023-06-28 20:10:57`|
 |[redis-vector-bot](https://github.com/aetherwu/redis-vector-bot)|A chat bot using Redis as vector store and query db.|`2023-04-17 14:32:13`|
 |[CameraPI](https://github.com/aetherwu/CameraPI)|None|`2016-06-10 12:52:27`|
 |[RaspiCameraPython](https://github.com/aetherwu/RaspiCameraPython)|None|`2015-08-27 15:40:51`|
@@ -14,7 +15,6 @@
 |[project-avalon](https://github.com/aetherwu/project-avalon)|A blog that I've written in 2005.|`2015-03-13 09:59:12`|
 |[SparkTEST](https://github.com/aetherwu/SparkTEST)|None|`2015-01-25 10:19:26`|
 |[RedBearBLEtest](https://github.com/aetherwu/RedBearBLEtest)|None|`2014-10-11 00:42:24`|
-|[MacXbeeChat](https://github.com/aetherwu/MacXbeeChat)|None|`2014-06-27 04:55:39`|
 
 ## Top Repos
 |Repo|Description|Star|
@@ -32,4 +32,4 @@
 
 
 
-*[Last Automatic Update: 2023-06-25 20:01:43](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+*[Last Automatic Update: 2023-07-02 20:01:35](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
