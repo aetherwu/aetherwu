@@ -11,6 +11,20 @@ recent_repo_num = 10
 from_zone = tz.tzutc()
 to_zone = tz.tzlocal()
 
+# ----------------------------------------------------------------------------
+# Profile content — edit these to customize your README.
+# ----------------------------------------------------------------------------
+
+TAGLINE = "Maker - Builder - Product Tinkerer"
+
+ABOUT_BULLETS = [
+    "Building small, focused tools — from browser extensions to LLM-powered bots.",
+    "Currently exploring LLM tooling, vector databases, and AI-assisted developer workflows.",
+    "Open to thoughtful collaborations at the intersection of AI, product, and UX.",
+]
+
+NO_DESCRIPTION = "—"
+
 
 def fetcher(username: str):
     result = {
@@ -32,14 +46,16 @@ def fetcher(username: str):
         if repo['fork']:
             continue
         processed_repo = {
-            'score': repo['stargazers_count'] + repo['watchers_count'] + repo['forks_count'],
+            # Note: GitHub's `watchers_count` is an alias for `stargazers_count`,
+            # so we intentionally only sum stars and forks here.
+            'score': repo['stargazers_count'] + repo['forks_count'],
             'star': repo['stargazers_count'],
             'link': repo['html_url'],
             'created_at': repo['created_at'],
             'updated_at': repo['updated_at'],
             'pushed_at': repo['pushed_at'],
             'name': repo['name'],
-            'description': repo['description']
+            'description': repo['description'] or NO_DESCRIPTION
         }
         date = datetime.datetime.strptime(processed_repo['pushed_at'], "%Y-%m-%dT%H:%M:%SZ")
         date = date.replace(tzinfo=from_zone)
@@ -55,44 +71,78 @@ def fetcher(username: str):
     return result
 
 
-abstract_tpl = """## Abstract
-![{github_name}'s Github Stats](https://github-readme-stats.vercel.app/api?username={github_username}&show_icons=true&hide_border=true)
-![{github_name}'s Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username={github_username}&layout=compact&hide_border=true&langs_count=10)
+header_tpl = """<h1 align="center">{github_name}</h1>
+<p align="center"><em>{tagline}</em></p>
+
+<p align="center">
+  <a href="https://github.com/{github_username}"><img src="https://img.shields.io/github/followers/{github_username}?label=Follow&style=flat-square&logo=github" alt="Follow on GitHub"/></a>
+  <img src="https://img.shields.io/badge/Open%20to-Collaboration-success?style=flat-square" alt="Open to collaboration"/>
+</p>
+
+---
+
+### About
+
+{about_block}
+
+### GitHub Stats
+
+<p>
+<img src="https://github-readme-stats.vercel.app/api?username={github_username}&show_icons=true&hide_border=true" alt="{github_name}'s GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_username}&layout=compact&hide_border=true&langs_count=10" alt="{github_name}'s Top Languages"/>
+</p>
 """
 
-zhihu_tpl = "[![{github_name}'s Zhihu Stats](https://stats.justsong.cn/api/zhihu?username={zhihu_username})](https://github.com/songquanpeng/readme-stats)\n"
+zhihu_tpl = '\n<p><a href="https://www.zhihu.com/people/{zhihu_username}"><img src="https://stats.justsong.cn/api/zhihu?username={zhihu_username}" alt="{github_name}\'s Zhihu Stats"/></a></p>\n'
 
-recent_repos_tpl = """\n## Recent Repos
-|Repo|Description|Last Update|
+recent_repos_tpl = """
+### Recent Activity
+
+| Repository | Description | Last Updated |
 |:--|:--|:--|
 """
 
-top_repos_tpl = """\n## Top Repos
-|Repo|Description|Star|
+top_repos_tpl = """
+### Featured Projects
+
+| Repository | Description | Stars |
 |:--|:--|:--|
-""".format(current_time)
+"""
 
 footer_tpl = """
-\n
-*[Last Automatic Update: {}](https://github.com/songquanpeng/songquanpeng/blob/master/help.md)*
+---
+
+<sub>Profile auto-refreshed weekly via GitHub Actions. Last update: {}</sub>
 """.format(current_time)
 
 
 def render(github_username, github_data, zhihu_username='') -> str:
-    markdown = ""
-    global abstract_tpl
+    github_name = github_data['name'] or github_username
+    about_block = "\n".join("- {}".format(line) for line in ABOUT_BULLETS)
+
+    markdown = header_tpl.format(
+        github_username=github_username,
+        github_name=github_name,
+        tagline=TAGLINE,
+        about_block=about_block,
+    )
+
     if zhihu_username:
-        abstract_tpl += zhihu_tpl
-    markdown += abstract_tpl.format(github_username=github_username, github_name=github_data['name'],
-                                    zhihu_username=zhihu_username)
-    global recent_repos_tpl
+        markdown += zhihu_tpl.format(
+            github_name=github_name,
+            zhihu_username=zhihu_username,
+        )
+
+    recent_section = recent_repos_tpl
     for repo in github_data['recent_repos']:
-        recent_repos_tpl += "|[{name}]({link})|{description}|`{pushed_at}`|\n".format(**repo)
-    markdown += recent_repos_tpl
-    global top_repos_tpl
+        recent_section += "| [{name}]({link}) | {description} | `{pushed_at}` |\n".format(**repo)
+    markdown += recent_section
+
+    top_section = top_repos_tpl
     for repo in github_data['top_repos']:
-        top_repos_tpl += "|[{name}]({link})|{description}|`{star}`|\n".format(**repo)
-    markdown += top_repos_tpl
+        top_section += "| [{name}]({link}) | {description} | `{star}` |\n".format(**repo)
+    markdown += top_section
+
     markdown += footer_tpl
     return markdown
 
