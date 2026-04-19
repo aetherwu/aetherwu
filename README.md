@@ -25,8 +25,9 @@
 
 | Repository | Description | Last Updated |
 |:--|:--|:--|
-| [CameraPI](https://github.com/aetherwu/CameraPI) | — | `2016-06-10 12:52:27` |
-| [RaspiCameraPython](https://github.com/aetherwu/RaspiCameraPython) | — | `2015-08-27 15:40:51` |
+| [secret-exchange](https://github.com/aetherwu/secret-exchange) | — | `2026-04-15 00:28:49` |
+| [delphi-wxapp](https://github.com/aetherwu/delphi-wxapp) | — | `2026-04-14 23:35:40` |
+| [delphi-web-server](https://github.com/aetherwu/delphi-web-server) | — | `2018-12-30 23:41:34` |
 | [project-avalon](https://github.com/aetherwu/project-avalon) | A blog that I've written in 2005. | `2015-03-13 09:59:12` |
 | [EnchantmentProject](https://github.com/aetherwu/EnchantmentProject) | It is a project that uses Kinect + Synapse + Quartz composer.  | `2014-04-16 23:33:11` |
 
@@ -35,10 +36,11 @@
 | Repository | Description | Stars |
 |:--|:--|:--|
 | [EnchantmentProject](https://github.com/aetherwu/EnchantmentProject) | It is a project that uses Kinect + Synapse + Quartz composer.  | `2` |
-| [CameraPI](https://github.com/aetherwu/CameraPI) | — | `1` |
 | [project-avalon](https://github.com/aetherwu/project-avalon) | A blog that I've written in 2005. | `1` |
-| [RaspiCameraPython](https://github.com/aetherwu/RaspiCameraPython) | — | `1` |
+| [delphi-web-server](https://github.com/aetherwu/delphi-web-server) | — | `0` |
+| [delphi-wxapp](https://github.com/aetherwu/delphi-wxapp) | — | `0` |
+| [secret-exchange](https://github.com/aetherwu/secret-exchange) | — | `0` |
 
 ---
 
-<sub>Profile auto-refreshed weekly via GitHub Actions. Last update: 2026-04-12 20:07:10</sub>
+<sub>Profile auto-refreshed weekly via GitHub Actions. Last update: 2026-04-19 20:07:00</sub>
